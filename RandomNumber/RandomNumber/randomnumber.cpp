@@ -12,7 +12,7 @@ void randomNumber () {
 srand (time(NULL));
 
 // Генерируем число между 1 и 25
-int secretNumber = rand() % 5 + 1;
+int secretNumber = rand() % 25 + 1;
 
 do {
     std::cout << "Guess number from 1 to 25: ";
